@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Sistema_educativo>
+	<Escuela>
+		<Id_Escuela>19</Id_Escuela>
+		<Nombre>Arenas_de_Cabrales</Nombre>
+		<Provincia>Asturias</Provincia>
+		<Lista_alumnos>
+			<Alumno>
+				<Id>4448242</Id>
+				<Id_Escuela>19</Id_Escuela>
+				<Nombre>Luis</Nombre>
+				<Primer_Apellido>Cerrato</Primer_Apellido>
+				<Segundo_Apellido>Vela</Segundo_Apellido>
+				<Codigo_Postal>567786</Codigo_Postal>
+			</Alumno>
+			<Alumno>
+				<Id>12344345</Id>
+				<Id_Escuela>19</Id_Escuela>
+				<Nombre>Alcalde</Nombre>
+				<Primer_Apellido>Garc?a</Primer_Apellido>
+				<Segundo_Apellido>Elena</Segundo_Apellido>
+				<Codigo_Postal>875658</Codigo_Postal>
+			</Alumno>
+		</Lista_alumnos>
+	</Escuela>
+	<Escuela>
+		<Id_Escuela>21</Id_Escuela>
+		<Nombre>Real_Escuela_Madrid</Nombre>
+		<Provincia>Madrid</Provincia>
+		<Lista_alumnos>
+			<Alumno>
+				<Id>56882942</Id>
+				<Id_Escuela>21</Id_Escuela>
+				<Nombre>D?az</Nombre>
+				<Primer_Apellido>Fern?ndez</Primer_Apellido>
+				<Segundo_Apellido>Mar?a</Segundo_Apellido>
+				<Codigo_Postal>87765</Codigo_Postal>
+			</Alumno>
+		</Lista_alumnos>
+	</Escuela>
+</Sistema_educativo>

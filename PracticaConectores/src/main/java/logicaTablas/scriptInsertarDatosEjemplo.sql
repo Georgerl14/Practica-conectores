@@ -1,0 +1,11 @@
+INSERT INTO ESCUELAS VALUES(19,'Arenas de Cabrales','Asturias');
+INSERT INTO ESCUELAS VALUES(21,'Real Escuela Madrid','Madrid');
+
+INSERT IGNORE INTO ALUMNOS VALUES
+(12344345,19,'Alcalde','Garc�a','Elena',875658);
+INSERT IGNORE INTO ALUMNOS VALUES
+(4448242,19,'Luis','Cerrato','Vela',567786);
+INSERT  IGNORE INTO ALUMNOS VALUES
+(56882942,21,'D�az','Fern�ndez','Mar�a',87765);
+
+commit;
