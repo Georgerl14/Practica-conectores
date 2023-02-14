@@ -134,6 +134,6 @@ class GestionContenido extends DefaultHandler {
 	}
 
 	private void mostrarAlumno(Alumno alumno) {
-		System.out.println(alumno + "\n");
+		System.out.println(alumno + " \n");
 	}
 }
