@@ -24,7 +24,8 @@ import tablas.Alumno;
 import tablas.Conector;
 
 public class CrearXmlDOM {
-	public static void main(String[] args) {
+	
+	public static void generarFichero() {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
 		try {
@@ -88,7 +89,7 @@ public class CrearXmlDOM {
 		}
 	}
 
-	public static void CrearElemento(String datoEmple, String valor, Element raiz, Document document) {
+	private static void CrearElemento(String datoEmple, String valor, Element raiz, Document document) {
 		Element elem = document.createElement(datoEmple);
 		Text text = document.createTextNode(valor);
 		raiz.appendChild(elem);

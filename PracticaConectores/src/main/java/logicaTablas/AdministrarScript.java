@@ -3,32 +3,34 @@ package logicaTablas;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
+import java.sql.SQLException;
 
 import logicaRegistros.GestionarRegistros;
 
 public class AdministrarScript extends GestionarRegistros {
 	
 	public static void main(String[] args) {
-		ejecutarCrearTablas();
-		ejecutarInsertarDatosEjemplo();
+//		ejecutarCrearTablas();
+//		ejecutarInsertarDatosEjemplo();
 	}
 	
 	// Ejecuta el script para crear tablas.
-	public static void ejecutarCrearTablas() {
+	public static void ejecutarCrearTablas() throws ClassNotFoundException, SQLException, IOException {
 		ejecutarScript(".\\src\\main\\java\\logicaTablas\\scriptCrearTablas.sql");
 	}
 
 	// Ejecuta el script para eliminar tablas.
-	public static void ejecutarEliminarTablas() {
+	public static void ejecutarEliminarTablas() throws ClassNotFoundException, SQLException, IOException {
 		ejecutarScript(".\\src\\main\\java\\logicaTablas\\scriptEliminarTablas.sql");
 	}
 
 	// Ejecuta el script para crear regitros de ejemplo.
-	public static void ejecutarInsertarDatosEjemplo() {
+	public static void ejecutarInsertarDatosEjemplo() throws ClassNotFoundException, SQLException, IOException {
 		ejecutarScript(".\\src\\main\\java\\logicaTablas\\scriptInsertarDatosEjemplo.sql");
 	}
 
-	private static void ejecutarScript(String ficheroSQL) {
+	private static void ejecutarScript(String ficheroSQL) throws ClassNotFoundException, SQLException, IOException {
 		// Obtener el fichero con las consultas.
 		File FicheroScript = new File(ficheroSQL);
 
@@ -44,8 +46,6 @@ public class AdministrarScript extends GestionarRegistros {
 
 			// Realizar la consulta.
 			realizarExecuteUpdate(consulta.toString());
-		} catch (Exception e) {
-			e.printStackTrace();
 		}
 
 	}

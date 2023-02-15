@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Sistema_educativo>
+	<Escuela>
+		<Id_Escuela>169</Id_Escuela>
+		<Nombre>Arenas_de_Cabrales</Nombre>
+		<Provincia>Asturias</Provincia>
+		<Lista_alumnos>
+			<Alumno>
+				<Id>4448242</Id>
+				<Id_Escuela>169</Id_Escuela>
+				<Nombre>Ldfasuis</Nombre>
+				<Primer_Apellido>Ceasdfrrato</Primer_Apellido>
+				<Segundo_Apellido>Vasdfela</Segundo_Apellido>
+				<Codigo_Postal>56772386</Codigo_Postal>
+			</Alumno>
+			<Alumno>
+				<Id>12344345</Id>
+				<Id_Escuela>169</Id_Escuela>
+				<Nombre>Alcaxcvblde</Nombre>
+				<Primer_Apellido>Gardfghc?a</Primer_Apellido>
+				<Segundo_Apellido>Elhena</Segundo_Apellido>
+				<Codigo_Postal>87535658</Codigo_Postal>
+			</Alumno>
+		</Lista_alumnos>
+	</Escuela>
+	<Escuela>
+		<Id_Escuela>217</Id_Escuela>
+		<Nombre>Real_Escuela_Madrid</Nombre>
+		<Provincia>Madrid</Provincia>
+		<Lista_alumnos>
+			<Alumno>
+				<Id>5688243677942</Id>
+				<Id_Escuela>217</Id_Escuela>
+				<Nombre>D?qraz</Nombre>
+				<Primer_Apellido>Fernxcvb?ndez</Primer_Apellido>
+				<Segundo_Apellido>Mxcvbr?a</Segundo_Apellido>
+				<Codigo_Postal>8776678895</Codigo_Postal>
+			</Alumno>
+		</Lista_alumnos>
+	</Escuela>
+</Sistema_educativo>

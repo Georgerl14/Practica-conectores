@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Sistema_educativo>
+	<Escuela>
+		<Id_Escuela>11</Id_Escuela>
+		<Nombre>Adfghs_dfhrales</Nombre>
+		<Provincia>Asturias</Provincia>
+		<Lista_alumnos>
+			<Alumno>
+				<Id>444823442</Id>
+				<Id_Escuela>11</Id_Escuela>
+				<Nombre>Lusdfgis</Nombre>
+				<Primer_Apellido>Cerdfsgrato</Primer_Apellido>
+				<Segundo_Apellido>Vedfsgla</Segundo_Apellido>
+				<Codigo_Postal>567734686</Codigo_Postal>
+			</Alumno>
+			<Alumno>
+				<Id>123442345654345</Id>
+				<Id_Escuela>11</Id_Escuela>
+				<Nombre>Alcaldsfgde</Nombre>
+				<Primer_Apellido>Gadfasrc?a</Primer_Apellido>
+				<Segundo_Apellido>Eldfasena</Segundo_Apellido>
+				<Codigo_Postal>875656546768</Codigo_Postal>
+			</Alumno>
+		</Lista_alumnos>
+	</Escuela>
+	<Escuela>
+		<Id_Escuela>46</Id_Escuela>
+		<Nombre>asdfscuela_Madrid</Nombre>
+		<Provincia>Madrid</Provincia>
+		<Lista_alumnos>
+			<Alumno>
+				<Id>5685782942</Id>
+				<Id_Escuela>46</Id_Escuela>
+				<Nombre>Dxczv?az</Nombre>
+				<Primer_Apellido>Fezxcvrn?ndez</Primer_Apellido>
+				<Segundo_Apellido>Mzxcvar?a</Segundo_Apellido>
+				<Codigo_Postal>8771365</Codigo_Postal>
+			</Alumno>
+		</Lista_alumnos>
+	</Escuela>
+</Sistema_educativo>

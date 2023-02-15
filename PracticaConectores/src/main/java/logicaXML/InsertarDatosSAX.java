@@ -21,7 +21,7 @@ import tablas.Escuela;
 
 public class InsertarDatosSAX {
 
-	public static void insertarDatosTabla() throws IOException, SAXException, ParserConfigurationException {
+	public static void insertarDatosTabla(String ficheroXML) throws IOException, SAXException, ParserConfigurationException {
 		SAXParserFactory parserFactory = SAXParserFactory.newInstance();
 		SAXParser parser = parserFactory.newSAXParser();
 		XMLReader procesadorXML = parser.getXMLReader();
@@ -29,7 +29,7 @@ public class InsertarDatosSAX {
 		GestionContenido gestor = new GestionContenido();
 		procesadorXML.setContentHandler(gestor);
 
-		InputSource fileXML = new InputSource("Escuelas.xml");
+		InputSource fileXML = new InputSource(ficheroXML);
 		procesadorXML.parse(fileXML);
 	}
 }

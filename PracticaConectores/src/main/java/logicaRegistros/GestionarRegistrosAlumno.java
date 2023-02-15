@@ -18,8 +18,8 @@ public class GestionarRegistrosAlumno extends GestionarRegistros {
 		metodoExecute(consulta);
 	}
 
-	public static void eliminarRegistro(Alumno alumno) throws ClassNotFoundException, SQLException {
-		String consulta = "DELETE FROM alumnos WHERE id = " + alumno.getId() + ";";
+	public static void eliminarRegistro(int id) throws ClassNotFoundException, SQLException {
+		String consulta = "DELETE FROM alumnos WHERE id = " + id + ";";
 		metodoExecute(consulta);
 	}
 
